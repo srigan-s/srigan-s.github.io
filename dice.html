@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>MiniAI</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Srigan Sivagnanenthirarajah</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="generic.html">MiniAI</a></li>
+                        <li><a href="basketball.html">Basketball Shooter</a></li>
+                        <li><a href="dice.html" class="active">Dice Wager Game</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Dice Wager Game</h1>
+							<span class="image fit"><img src="images/dice.jfif" alt="" /></span>
+							<p>The player starts with 500 points and is prompted to input points to play or -1 to quit. If the player decides to quit, a thank-you message is displayed, and the game ends. 
+                                If the player decides to continue, the game checks if the input points are valid. Invalid inputs prompt the user to enter a valid number of points. 
+                                Once the game starts, it enters a loop where the player and computer each roll two dice. 
+                                The sum of the dice is compared, and the player either wins, loses points, or the game ends if the player runs out of points. </p>
+							<p>The player is then given the option to play again. The use of nested loops and conditional statements ensures the proper flow of the game, handling input validation, calculating points, and providing a clear game-over message. 
+                                The game allows for repeated play, resetting points upon restarting and exiting when the player decides to quit. Lines 13-22, carry out the value of the dice rolls. Then the rest of the code, expands on what happens after the values are given. 
+                                For example the two rolls will be compared and if the user's is smaller, the user will lose points. You can visit the <a href="https://github.com/srigan-codes/Dice-Game" target="_blank">Github respository here</a>
+                            </p>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Srigan Sivagnanenthirarajah. All rights reserved.</li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
